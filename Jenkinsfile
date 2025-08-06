@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'newman run test-collection.json'
+                sh '/opt/homebrew/bin/newman run test-collection.json'
             }
         }
     }
