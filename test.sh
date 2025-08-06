@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo 'inside test script'
+echo 'waiting for timeout'
+sleep 6
